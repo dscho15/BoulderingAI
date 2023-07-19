@@ -1,20 +1,35 @@
+* {
+  user-select: none;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 100vh !important;
+  width: 100vw !important;
+}
+
 .container {
-    width: 100%;
-    height: 100vh;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100vw !important;
+  height: 100vh;
+  background-color: #C9D7F2;
+  max-width: none !important;
 }
 
 #upload {
-    position: fixed;
-    bottom: 20px; /* Adjust the value to change the vertical position */
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60px; /* Adjust the size of the button */
-    height: 60px; /* Adjust the size of the button */
-    display: flex;
-    align-items: center;
-    justify-content: center;    
-    z-index: 9999; /* Ensure the button stays on top of other elements */
-    border-radius: 50% !important;
+  position: fixed;
+  bottom: 20px; /* Adjust the value to change the vertical position */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px; /* Adjust the size of the button */
+  height: 60px; /* Adjust the size of the button */
+  display: flex;
+  align-items: center;
+  justify-content: center;    
+  z-index: 9999; /* Ensure the button stays on top of other elements */
+  border-radius: 50% !important;
 }
 
 .upload_float {
@@ -24,7 +39,7 @@
 }
 
 .btn_float {
-  background-color: rgb(69, 181, 247);
+  background-color: #022859;
   outline: none !important;
   border: none !important;
   width: 100%;
@@ -42,4 +57,17 @@
 
 .btn_float:active {
   background-color: rgb(29, 120, 177); /* Change the background color when clicked */
+}
+
+.header {
+  width: 100%;
+  height: 10vh;
+  background-color: #022859;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+.row {
+  margin: 0 !important;
 }

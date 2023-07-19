@@ -2,3 +2,6 @@ dash
 dash-core-components
 dash-html-components
 opencv-python
+dash-bootstrap-components
+pillow
+flask
